@@ -1,7 +1,7 @@
 # Random-Programming-Challenges
 This is a collection of random programming challenges I might update from time to time.
 
-## 1. Range Sum Query but the array gets too big
+## 1. Range Sum Query but it's weird
 
 Say that we have an empty set and a file with some lines of integers. Each line has either 1 or 2 integers.
 
