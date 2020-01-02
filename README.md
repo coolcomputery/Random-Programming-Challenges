@@ -3,9 +3,9 @@ This is a collection of random programming challenges I might update from time t
 
 ## 1. Range Sum Query but it's weird
 
-Say that we have an empty set and a file with some lines of integers. Each line has either 1 or 2 integers.
+Say that we have an empty list and a file with some lines of integers. Each line has either 1 or 2 integers.
 
-If there is 1 number, add it to the set. Include duplicate numbers if they come up.
+If there is 1 number, add it to the list. Include duplicate numbers if they come up.
 
 If there are two numbers, then output in another file how many elements in the set are between these two numbers, inclusive.
 
