@@ -1,15 +1,16 @@
 # Random-Programming-Challenges
 This is a collection of random programming challenges I might update from time to time.
 
-## 1. Range Sum Query but it's weird
+## 1. Range Counting
 
-Say that we have an empty list and a file with some lines of integers. Each line has either 1 or 2 integers.
+Say that we have an empty collection and a file with some lines of integers. Each line has either 1 or 2 integers.
 
-If there is 1 number, add it to the list. Include duplicate numbers if they come up.
+If there is one number, add it to the collection. Include duplicate numbers if they come up.
 
-If there are two numbers, then output how many values in the list are between these two numbers, inclusive, in another file.
+If there are two numbers, then output into another file how many values in the collection are between these two numbers, inclusive.
 
-All numbers in the input file are between 0 and 10^100. The file will have up to 100,000 lines. The time limit is 2 seconds.
+All numbers in the input file are between 0 and 10^100. The file will have up to 100,000 lines.
 
+The time limit is 10 seconds for any language. (I might change this).
 
 later challenges coming soon...
