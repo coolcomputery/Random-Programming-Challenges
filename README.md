@@ -11,7 +11,7 @@ Say that we have an empty collection and a file with some lines of integers. Eac
 
 If there is one number, add it to the collection. Include duplicate numbers if they come up.
 
-If there are two numbers, a and b, then output into another file the amount of numbers in the collection that are between a and b, inclusive.
+If there are two numbers, a and b, then output into another file the amount of numbers in the collection that are >=a and <=b.
 
 All numbers in the input file are between 0 and 10^100. The file will have up to 100,000 lines.
 
@@ -23,4 +23,4 @@ An integer x appears in another integer y for k times if x can be seen in k diff
 
 If two appearances of x overlap, count both of them. For example, if x=888 and y=588889, then x also appears in y two times.
 
-Assume base 10 is always used. Leading zeros are not allowed.
+Assume base 10 is always used. c can have leading zeros, but the integers between a and b cannot. (ex. if c=0019, it appears in 1900190 only once, not twice).
