@@ -17,7 +17,7 @@ All numbers in the input file are between 0 and 10^100. The file will have up to
 
 ## 2. Strings in Digits
 
-Given three whole numbers a, b, and c, such that 0<=a<=b<=10^100 and c<=a, how many times does c appear in the integers between a and b, inclusive?
+Given three whole numbers a, b, and c, such that 0<=a<=b<=10^(10^5) and c<=a, how many times does c appear in the integers between a and b, inclusive?
 
 An integer x appears in another integer y for k times if x can be seen in k different places when writing the digits of y. For example, if x=888 and y=588890238883, then x appears in y two times.
 
